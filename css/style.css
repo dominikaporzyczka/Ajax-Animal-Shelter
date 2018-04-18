@@ -37,6 +37,7 @@ h1 {
 /* NAV */
 #animals-list {
     padding: 0;
+    margin-top: 40px;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -67,4 +68,46 @@ h1 {
     .animals-list_animal {
         flex: 1 0 30%;
     }
+}
+
+/*
+* ANIMAL MAIN CONTENT
+*/
+#animal {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#animal_name {
+    color: #FD7272;
+    font-size: 2em;
+}
+
+.animal_photo_container {
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#animal_photo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#animal_adopt-btn {
+    padding: 10px 20px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 1.2em;
+    background: #FD7272;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+#animal_adopt-btn:hover {
+    background: #fff;
+    color: #FD7272;
+    border: 2px solid #FD7272;
 }
