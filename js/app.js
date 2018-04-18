@@ -20,4 +20,7 @@ for (let i = 0; i < animalsNav.length; i++) {
 
 function display(index) {
     document.getElementById('animal_name').innerHTML = animalInfo[index].name;
+    document.getElementById('animal_photo').src = animalInfo[index].photo;
+    document.getElementById('animal_age').innerHTML = animalInfo[index].age;
+    document.getElementById('animal_description').innerHTML = animalInfo[index].description;
 }
